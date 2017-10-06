@@ -271,6 +271,8 @@ public class InAppBillingBridge extends ReactContextBaseJavaModule implements Ac
                             map.putString("currency", detail.currency);
                             map.putDouble("priceValue", detail.priceValue);
                             map.putString("priceText", detail.priceText);
+                            map.putDouble("introductoryPriceValue", detail.introductoryPriceValue);
+                            map.putString("introductoryPriceText", detail.introductoryPriceText);
                             arr.pushMap(map);
                         }
                     }
@@ -311,6 +313,8 @@ public class InAppBillingBridge extends ReactContextBaseJavaModule implements Ac
                             map.putString("currency", detail.currency);
                             map.putDouble("priceValue", detail.priceValue);
                             map.putString("priceText", detail.priceText);
+                            map.putDouble("introductoryPriceValue", detail.introductoryPriceValue);
+                            map.putString("introductoryPriceText", detail.introductoryPriceText);
                             arr.pushMap(map);
                         }
                     }
